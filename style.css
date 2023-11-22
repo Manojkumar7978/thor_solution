@@ -11,18 +11,21 @@ body {
 
 :root {
     --dark-color: #2D2D2D;
+    --secondary-color:#D9D9D9;
     --large-font-size: 24px;
     --large-font-weight: 600;
     --mid-font-weight: 400;
     --sm-font-size: 16px;
     --mid-font-size: 18px;
     --sm-font-weight: 300;
+    --xs-font-size: 14px;
 }
 
 
 
 .saved-design-page,
-.orders-page {
+.orders-page,
+.setting-page {
     max-width: 1440px;
     margin: auto;
     overflow: hidden;
@@ -232,7 +235,8 @@ hr {
     gap: 35px;
 }
 
-.filterby h1,th {
+.filterby h1,
+th {
     color: var(--dark-color);
     font-size: var(--sm-font-size);
     font-style: normal;
@@ -240,6 +244,7 @@ hr {
     line-height: normal;
     margin: 0;
     margin-bottom: 8px;
+
 }
 
 input[type="date"] {
@@ -263,6 +268,10 @@ input[type="text"] {
     color: #D9D9D9;
     padding: 4px 0 4px 8px;
 }
+
+
+
+/* responsiveness */
 @media screen and (max-width:1200px) {
     .designs {
         grid-template-columns: repeat(2, 1fr);
@@ -278,7 +287,8 @@ input[type="text"] {
     .navigation {
         padding-right: 10px;
     }
-    .filterby{
+
+    .filterby {
         flex-direction: column-reverse;
         gap: 5px;
         text-align: center;
@@ -300,10 +310,12 @@ input[type="text"] {
         text-align: center;
 
     }
+
     input[type="text"] {
         width: auto;
     }
-    .filterby>div{
+
+    .filterby>div {
         flex-direction: column;
     }
 }
