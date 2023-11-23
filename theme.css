@@ -186,6 +186,30 @@ body {
     display: flex;
     margin-top: 3px;
 }
+.reset{
+    color: var(--dark-color);
+font-size: var(--xs-font-size);
+font-style: normal;
+font-weight: var(--large-font-weight);
+line-height: normal;
+}
+.reset-btn{
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: var(--xs-font-size);
+    font-weight: var(--large-font-weight);
+    border: none;
+    background: linear-gradient(#FFC28C 0%, #EA60D5 49.48%, #7D8DFF 100%);
+    color: #fff;
+}
+.para{
+    color: var(--dark-color);
+font-size: 12px;
+font-style: normal;
+font-weight: var(--mid-font-weight);
+line-height: normal;
+margin-left: 32px;
+}
 
 /* product details section css */
 

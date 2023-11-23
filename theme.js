@@ -55,6 +55,30 @@ let navBtn=[
         logo:"./assets/price.png",
         text:"Price"
     },
+    {
+        logo:"./assets/Switch View Arrows.png",
+        text:"Switch View Arrows"
+    },
+    {
+        logo:"./assets/Switch View Dots.png",
+        text:"Switch View Dots"
+    },
+    {
+        logo:"./assets/Zoom1.png",
+        text:"Zoom"
+    },
+    {
+        logo:"./assets/Share Button.png",
+        text:"Share Button"
+    },
+    {
+        logo:"./assets/Description (mobile).png",
+        text:"Description (mobile)"
+    },
+    {
+        logo:"./assets/Out of Stock.png",
+        text:"Out of Stock"
+    },
 ]
 let layersPanel=()=>{
     return `

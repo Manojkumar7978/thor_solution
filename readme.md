@@ -5,7 +5,7 @@
 - There is 4 section in this. There is a navigation menu and it's navigate to orders page, saved design page , setting page and theme builder page.
 
 ## Deployed link
-- 
+- https://655eeb18e2e9a444529802a7--sunny-salamander-ef710d.netlify.app/
 
 ## Demo
 - 
