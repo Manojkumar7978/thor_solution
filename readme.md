@@ -8,7 +8,7 @@
 - https://655eeb18e2e9a444529802a7--sunny-salamander-ef710d.netlify.app/
 
 ## Demo
-- 
+- https://vimeo.com/887539263/29073fd6d2?share=copy
 
 
 ## tech stack
